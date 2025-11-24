@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda – Sistem Pembelajaran TK</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: url('Beranda.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Kotak utama (overlay gelap) */
+        .hero-box {
+            background: rgba(0, 112, 164, 0.45); /* Gelap transparan */
+            width: 450px;
+            margin: 80px auto;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .hero-box h1 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .hero-box p {
+            color: white;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: #ff6c6c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        /* Testimoni */
+        .testi-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+
+        .testi-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .testi {
+            width: 70%;
+            margin: auto;
+            background: #f2f2f2;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Kotak sambutan -->
+    <div class="hero-box">
+        <h1>Selamat Datang di Sistem Pembelajaran TK</h1>
+        <p>Silakan masuk atau daftar untuk melanjutkan ke dashboard Anda.</p>
+
+        <button onclick="location.href='login.php'">Masuk</button>
+        <button onclick="location.href='register.php'">Daftar</button>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="testi-section">
+        <div class="testi-title">Testimoni Pengguna</div>
+
+        <div class="testi">
+            “Sistemnya mudah digunakan dan sangat membantu pembelajaran anak saya!”
+            <br>— Ibu Sari
+        </div>
+
+        <div class="testi">
+            “Guru bisa memonitor perkembangan siswa dengan lebih praktis.”
+            <br>— Pak Dedi
+        </div>
+
+        <div class="testi">
+            “Tampilan simpel dan jelas, cocok untuk orang tua.”
+            <br>— Ibu Rika
+        </div>
+    </div>
+
+</body>
+</html>
